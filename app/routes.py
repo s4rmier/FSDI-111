@@ -7,7 +7,7 @@ app = Flask(__name__)           # Creates an instance of the Flask class
 
 
 # Flask decorator that maps view functions to routes
-@app.get("/")
+@app.get("/aboutme")
 def about_me():                 # Our view function
     me = {                      # Python dictionary
         "first_name": "Romnick",
